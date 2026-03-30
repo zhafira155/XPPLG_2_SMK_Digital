@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPLG</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hero {
+            background-image: url(asset/rpl.jpg);
+            background-size: cover;
+            background-position: center;
+            min-height: 25vh;
+        }
+
+        .overlay {
+            background-color: rgba(11, 38, 208, 0.82);
+            min-height: 25vh;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="asset/logo sekolah.jpeg" href="index.html" alt="logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                SMK DIGITAL
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Visi Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Data Siswa</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Jurusan
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                            <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
+                            <li><a class="dropdown-item" href="kuliner.html">Kuliner</a></li>
+                            <li><a class="dropdown-item" href="busana.html">Busana</a></li>
+                            <li><a class="dropdown-item" href="otomotif.html">Otomotif</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Lihat Semua</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="flex-grow-1">
+        <!-- Hero -->
+        <div class="hero">
+            <div class="overlay d-flex justify-content-center align-items-center text-center py-5">
+                <div class="text-white">
+                    <h2 class="fw-bold">PENGEMBANGAN PERANGKAT LUNAK DAN GIM</h2>
+                    <p class="fs-5">
+                        Jurusan yang membekali peserta didik dengan pengetahuan,
+                        keterampilan, dan sikap unggul agar siap menjadi tenaga kompeten
+                        di bidang rekayasa perangkat lunak
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card shadow rounded mb-3">
+                        <div class="card-body">
+                            <h3 class="fw-bold mt-3">Membangun Masa Depan Melalui Kode</h3>
+                            <p class="text-muted mt-3">
+                                PPLG adalah singkatan dari Pengembangan Perangkat Lunak dan Gim...
+                            </p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="bg-white rounded-1 d-flex align-items-center justify-content-center me-3"
+                                            style="width: 100px; height: 100px;">
+                                            <i class="bi bi-code-square text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="fw-bold">Web Dev</h6>
+                                            <p class="text-muted mb-0">Frontend & Backend</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="bg-white rounded-1 d-flex align-items-center justify-content-center me-3"
+                                            style="width: 100px; height: 100px;">
+                                            <i class="bi bi-controller text-success"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="fw-bold">Game Dev</h6>
+                                            <p class="text-muted mb-0">Unity & 3D Asset</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <h5 class="fw-bold">Fasilitas Unggulan</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between">
+                                    Laboratorium Komputer
+                                    <span class="badge bg-primary">4 Lab</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    Internet Cepat
+                                    <span class="badge bg-primary">Full WIFI</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between">
+                                    Sertifikasi Industri
+                                    <span class="badge bg-primary">Voucher</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header bg-dark text-white text-center fw-bold">
+                            Status Pendaftaran
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <p class="fw-bold">Kuota Terisi</p>
+                                <p class="fw-bold">95%</p>
+                            </div>
+                            <div class="progress mb-2">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%">
+                                </div>
+                            </div>
+                            <button class="btn btn-primary w-100">DAFTAR SEKARANG</button>
+                            <a href="index.html" class="btn btn-light text-muted w-100 mt-2">
+                                ← Kembali
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img src="asset/rpl.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <p class="text-muted">
+                                "Belajar di PPLG SMK Digital membuka wawasan saya..."
+                            </p>
+                            <p class="fw-bold">- Ahmad, Alumni 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        &copy; 2026 SMK Digital - Seluruh Hak Cipta Dilindungi
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
