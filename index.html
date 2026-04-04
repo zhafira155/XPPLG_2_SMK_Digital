@@ -27,48 +27,38 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="asset/logo sekolah.jpeg" href="index.html" alt="logo" width="30" height="24"
-                    class="d-inline-block align-text-top">
+                <img src="asset/logo sekolah.jpeg" width="30" height="24">
                 SMK DIGITAL
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav style="text-align: right;">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#visimisi">Visi Misi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#datasiswa">Data Siswa</a>
-                        </li>
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Jurusan
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item text-light" href="pplg.html">PPLG</a></li>
-                                <li><a class="dropdown-item text-light" href="tjkt.html">TJKT</a></li>
-                                <li><a class="dropdown-item text-light" href="kuliner.html">Kuliner</a></li>
-                                <li><a class="dropdown-item text-light" href="busana.html">Busana</a></li>
-                                <li><a class="dropdown-item text-light" href="otomotif.html">Otomotif</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item text-light" href="#">Lihat Semua</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#visimisi">Visi Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#datasiswa">Data Siswa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            Jurusan
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">PPLG</a></li>
+                            <li><a class="dropdown-item" href="#">TJKT</a></li>
+                            <li><a class="dropdown-item" href="#">Kuliner</a></li>
+                            <li><a class="dropdown-item" href="#">Busana</a></li>
+                            <li><a class="dropdown-item" href="#">Otomotif</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="hero"> <!-- Hero Section -->
@@ -100,15 +90,15 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="#" style="text-decoration: none;">Home</a>
+                            <a href="index.html" style="text-decoration: none;">Home</a>
                         </li>
                         <li class="breadcrumb-item">
                             <a href="#" style="text-decoration: none;">Dashbroad</a>
                         </li>
                         <li class="breadcrumb-item
-                            "><a href="#" style="text-decoration: none;">Visi Misi</a></li>
+                            "><a href="#visimisi" style="text-decoration: none;">Visi Misi</a></li>
                         <li class="breadcrumb-item">
-                            <a href="#" style="text-decoration: none;">Jurusan</a>
+                            <a href="#jurusan" style="text-decoration: none;">Jurusan</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             Data Siswa 2026
@@ -256,6 +246,7 @@
         </div>
     </div>
     <br>
+    <section class="jurusan section-padding pt-0" id="jurusan"></section>
     <div class="container mt-4">
         <h3 class="text-center mb-4 fw-bold">Ringkasan Angkatan per Jurusan</h3>
     </div>
