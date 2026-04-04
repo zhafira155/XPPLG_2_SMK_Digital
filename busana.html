@@ -27,45 +27,46 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="asset/logo sekolah.jpeg" alt="logo" width="30" height="24"
-                    class="d-inline-block align-text-top">
+                <img src="asset/logo sekolah.jpeg" width="30" height="24">
                 SMK DIGITAL
             </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav style="text-align: right;">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Beranda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#visimisi">Visi Misi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html#datasiswa">Data Siswa</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                                Jurusan
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item text-light" href="pplg.html">PPLG</a></li>
-                                <li><a class="dropdown-item text-light" href="tjkt.html">TJKT</a></li>
-                                <li><a class="dropdown-item text-light" href="kuliner.html">Kuliner</a></li>
-                                <li><a class="dropdown-item text-light" href="busana.html">Busana</a></li>
-                                <li><a class="dropdown-item text-light" href="otomotif.html">Otomotif</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item text-light" href="#">Lihat Semua</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+
+            <!-- FIX -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto"> <!-- ubah jadi ms-auto -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#visimisi">Visi Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#datasiswa">Data Siswa</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            Jurusan
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+                            <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
+                            <li><a class="dropdown-item" href="kuliner.html">Kuliner</a></li>
+                            <li><a class="dropdown-item" href="busana.html">Busana</a></li>
+                            <li><a class="dropdown-item" href="otomotif.html">Otomotif</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-light" href="#">Lihat Semua</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main class="flex-grow-1">
