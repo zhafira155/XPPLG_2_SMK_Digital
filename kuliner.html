@@ -24,49 +24,51 @@
         }
     </style>
     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="asset/logo sekolah.jpeg" width="30" height="24">
+                <img src="asset/logo sekolah.jpeg" href="index.html" alt="logo" width="30" height="24"
+                    class="d-inline-block align-text-top">
                 SMK DIGITAL
             </a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <!-- FIX -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto"> <!-- ubah jadi ms-auto -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#visimisi">Visi Misi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#datasiswa">Data Siswa</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            Jurusan
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
-                            <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
-                            <li><a class="dropdown-item" href="kuliner.html">Kuliner</a></li>
-                            <li><a class="dropdown-item" href="busana.html">Busana</a></li>
-                            <li><a class="dropdown-item" href="otomotif.html">Otomotif</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item text-light" href="#">Lihat Semua</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            <nav style="text-align: right;">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#visimisi">Visi Misi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#datasiswa">Data Siswa</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Jurusan
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item text-light" href="pplg.html">PPLG</a></li>
+                                <li><a class="dropdown-item text-light" href="tjkt.html">TJKT</a></li>
+                                <li><a class="dropdown-item text-light" href="kuliner.html">Kuliner</a></li>
+                                <li><a class="dropdown-item text-light" href="busana.html">Busana</a></li>
+                                <li><a class="dropdown-item text-light" href="otomotif.html">Otomotif</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-light" href="#">Lihat Semua</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </nav>
     <main class="flex-grow-1">
@@ -105,7 +107,7 @@
                                     <div class="d-flex gap-2 align-items-center mb-3">
                                         <div class="bg-white rounded-1 d-flex align-items-center justify-content-center me-3"
                                             style="width: 100px; height: 100px;">
-                                            <i class="bi bi-star text-primary fs-1"></i>
+                                            <i class="bi bi-star text-primary"></i>
                                         </div>
                                         <div>
                                             <h6 class="fw-bold">Food Plating</h6>
@@ -117,7 +119,7 @@
                                     <div class="d-flex gap-2 align-items-center mb-3">
                                         <div class="bg-white rounded-1 d-flex align-items-center justify-content-center me-3"
                                             style="width: 100px; height: 100px;">
-                                            <i class="bi bi-cup-hot text-danger fs-1"></i>
+                                            <i class="bi bi-cup-hot text-danger"></i>
                                         </div>
                                         <div>
                                             <h6 class="fw-bold">Food & Beverage</h6>
@@ -169,8 +171,8 @@
                                 </div>
                             </div>
                             <button class="btn btn-primary w-100 mt-2">DAFTAR SEKARANG</button>
-                            <a href="index.html" class="btn btn-light text-muted w-100 mt-2" role="button"><i
-                                    class="bi bi-arrow-left text-muted"></i> Kembali
+                            <a href="index.html" class="btn btn-outline-secondary text-muted w-100 mt-2"
+                                role="button"><i class="bi bi-arrow-left text-muted"></i> Kembali
                             </a>
                         </div>
                     </div>
